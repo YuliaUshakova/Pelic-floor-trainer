@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+#myVideo {
+    position: fixed;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#text {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: white;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn {
+    position: fixed;
+    margin-top: 190px;
+    margin-left: 150px;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#count {
+    position: fixed;
+    margin-top: 550px;
+    margin-left: 140px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}   
+@media all and (max-width: 300px) {
+    #text{
+        font-size: 10px;
+    }
+    #btn{
+        margin-left: 45px;
+        font-size: 16px;
+        }
+    #count {
+        margin-left: 45px;
+        font-size: 30px;
+    }
+}
